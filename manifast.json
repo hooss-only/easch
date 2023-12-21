@@ -4,6 +4,6 @@
 	"description": "helping tool for high school students of Korea",
 	"version": "1.0",
   "chrome_url_overrides": {
-		"PAGE_TO_OVERRIDE": "easch.html",
+		"newtab": "easch.html",
 	},
 }
