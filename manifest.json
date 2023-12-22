@@ -1,9 +1,9 @@
 {
-	"manifast_version": 3,
+	"manifest_version": 3,
 	"name": "Eacsh",
 	"description": "helping tool for high school students of Korea",
 	"version": "1.0",
   "chrome_url_overrides": {
-		"newtab": "easch.html",
-	},
+		"newtab": "easch.html"
+	}
 }
