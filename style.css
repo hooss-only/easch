@@ -44,6 +44,10 @@ body {
 	width: 100%
 }
 
+::placeholder {
+	color: white;
+}
+
 .pin-container {
 	margin-top: 40px;
 	margin-bottom: 60px;
@@ -58,9 +62,49 @@ body {
 	width: 120px;
 }
 
+.information-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 
-::placeholder {
-	color: white;
+.timetable {
+	padding: 36px 72px;
+}
+
+#schoolinfo {
+	font-weight: 700
+}
+
+.tables {
+	margin-top: 29px;
+	display: flex;
+	flex-direction: row;
+}
+
+.table:first-child {
+	border-right: solid rgba(255, 255, 255, 0.5) 2px; 
+}
+
+.table {
+	padding: 0 48px;
+}
+
+#weekday {
+		font-weight: 600;
+}
+
+.diet {
+	padding: 36px 47px;
+}
+
+#date {
+	font-weight: 700;
+}
+
+#diet {
+	width: 196px;
+	text-overflow: ellipsis
 }
 
 header {
