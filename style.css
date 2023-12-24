@@ -7,7 +7,15 @@
 	font-size: 18px;
 }
 
+html {
+	height: 100%
+}
+
 body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 	width: 100%;
 	height: 100%;
 	
@@ -19,7 +27,7 @@ body {
 }
 
 .main-container {
-	margin: 46px 73px;
+	
 }
 
 .objects-container {
@@ -95,6 +103,7 @@ body {
 }
 
 .diet {
+	margin-left: 30px;
 	padding: 36px 47px;
 }
 
@@ -103,7 +112,7 @@ body {
 }
 
 #diet {
-	width: 196px;
+	width: 197px;
 	text-overflow: ellipsis
 }
 
