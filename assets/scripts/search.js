@@ -1,7 +1,12 @@
 let searchInput = document.getElementById('search');
+let searchUrl;
+
+chrome.storage.sync.get(['search_url'], (result) => searchUrl = result.search_url);
 
 searchInput.addEventListener("keypress", (e) => {
 	if (e.key == "Enter") { 
-		window.location.href = "http://www.google.com/search?q=" + searchInput.value;
+		console.log(searchUrl);
+
+		window.location.href = searchUrl.replace("%s", searchInput.value);
 	}
 });

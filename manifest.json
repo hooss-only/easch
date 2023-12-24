@@ -6,7 +6,7 @@
   "chrome_url_overrides": {
 		"newtab": "easch.html"
 	},
-	"permissions": {
+	"permissions": [
 		"storage"
-	}
+	]
 }
