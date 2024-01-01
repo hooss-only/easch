@@ -64,6 +64,8 @@ body {
 .pin {
 	height: 120px;
 	width: 120px;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .information-container {
