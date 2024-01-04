@@ -27,14 +27,6 @@ function setupPin(pins) {
 
 			if (url != 0) {
 				if (url.startsWith('http://') || url.startsWith('https://')) {
-					// get index
-					let index = 0;
-					for (let i=0;i<5;i++) {
-						if (pinContainers[i] == e.target) {
-							index = i;
-						}
-					}
-
 					pins[index] = {url: url}
 					
 					chrome.storage.sync.set({pins: pins});
