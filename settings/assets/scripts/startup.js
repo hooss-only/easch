@@ -1,4 +1,5 @@
 chrome.storage.sync.get(["pins"], (result) => setupPin(result.pins));
+setupSchool("x");
 
 function setupPin(pins) {
 	const pinTexts = document.getElementsByTagName('li');
@@ -48,6 +49,12 @@ function setupPin(pins) {
 	}
 }
 
-function setupSchool() {
+function setupSchool(school) {
 	// TODO: setup school, select school feature
+	button = document.getElementById('school-find');
+	button.addEventListener("click", () => {
+		window.open("school_select.html", "schoolSelectPopup", "width=600 height=500");
+	})
+
+
 }
